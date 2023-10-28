@@ -1,0 +1,37 @@
+<html>
+<head> 
+<link rel="stylesheet" href="login.css">
+</head> 
+<body>
+    
+  <div class="tile">
+  <div class="tile-header">
+    <h2 style="color: white; opacity: .75; font-size: 4rem; display: flex; justify-content: center; align-items: center; height: 100%;">LOG IN</h2>
+  </div>
+  
+  <div class="tile-body">
+    <form id="form" method="POST" action="login1.php">
+      <label class="form-input">
+        <i class="material-icons">person</i>
+        <input type="text" autofocus="true"  name="uname" required />
+        <span class="label">Username</span>
+        <span class="underline"></span>
+      </label>
+      
+      <label class="form-input">
+        <i class="material-icons">lock</i>
+        <input type="password" name="pass" required />
+        <span class="label">Password</span>
+        <div class="underline"></div>
+      </label>
+      
+      <div class="submit-container clearfix" style="margin-top: 2rem;">  
+        <a style="color:#868e96;text-decoration:none;" href="forgotpass.html">Forgot Password</a>
+        <input id="submit" class="btn btn-irenic float-right" tabindex="0" type="submit" name="login" value="Login">
+      </div>
+    </form>
+  </div>
+</div>
+</body>
+</html>
+ 

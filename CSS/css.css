@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+ body{
+    min-height: 100vh;
+    }
+li{
+    list-style: none;
+    color: white;
+    }
+ h1{
+    color: white;
+    }
+
+.side-bar{
+        position: fixed;
+        background:rgb(53, 48, 48) ;
+        width: 15vw;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        }
+.side-bar .logo-name{
+        height: 10vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        }
+.side-bar li{
+            font-size: 15px;
+            padding: 10px 40px;
+            display: flex;
+            align-items: center;
+            }
+.side-bar li:hover{
+                background:white;
+                color: #25041d;
+                }
+
+
+ .container {
+            position: absolute;
+            right: 0;
+            width: 85vw;
+            height: 100vh;
+            background:#f1f1f1;
+            }
+ .container .header {
+            position: fixed;
+            top: 0;
+            right: 0;
+            width: 85vw;
+            height: 10vh;
+            background: rgb(26, 26, 205);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0
+            }
+.container .header .nav{
+                width: 90%;
+                display: flex;
+                align-items: center;
+                background-color: rgb(207, 207, 227);
+                }
+.container .header .nav .search{
+                flex: 3;
+                display:flex;
+                align-items: center;
+                justify-content: center;
+               
+                }
+.container .header .nav .search input[type=text] {
+                    border: none;
+                    background: ■#f1f1f1;
+                    padding: 10px;
+                    width: 50%;
+                    }
+.container .header .nav .search button{
+                    width: 35px;
+                    height: 35px;
+                    border: none;
+                    display:flex;
+                    align-items: center;
+                    justify-content: center;
+                    }
+.container .header .nav .search button img{
+                    width: 25px;
+                    height: 25px;
+                    } 
+.container .header .nav .user{
+                    flex: 1;
+                    background: Ipalevioletred;
+                    justify-content: right;
+                    }
+.container .header .nav .user img{
+    width: 25px;
+    height: 25px;
+}

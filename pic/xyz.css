@@ -1,0 +1,37 @@
+.container-fluid {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.callout {
+  border-radius: 0.25rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  background-color: #fff;
+  border-left: 5px solid #e9ecef;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  width: 100%;
+}
+
+.callout a {
+  color: #495057;
+  text-decoration: underline;
+}
+
+.callout a:hover {
+  color: #e9ecef;
+}
+
+.callout p:last-child {
+  margin-bottom: 0;
+}
+
+.callout.callout-info {
+  border-left-color: #117a8b;
+}

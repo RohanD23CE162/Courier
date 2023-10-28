@@ -1,0 +1,118 @@
+.home-content {
+  position: relative;
+  margin-left: 100px;
+}
+.home-content .overview-boxes {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 20px 20px;
+}
+.overview-boxes .box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48%;
+  background: #fff;
+  padding: 25px 14px;
+  border-radius: 12px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  margin: 5px;
+}
+.overview-boxes .box-topic {
+  font-size: 20px;
+  font-weight: 500;
+}
+.home-content .box .number {
+  display: inline-block;
+  font-size: 35px;
+  margin-top: -6px;
+  font-weight: 500;
+}
+.home-content .box .indicator {
+  display: flex;
+  align-items: center;
+}
+.home-content .box .indicator i {
+  height: 20px;
+  width: 20px;
+  background: #8fdacb;
+  line-height: 20px;
+  text-align: center;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 20px;
+  margin-right: 5px;
+}
+.box .indicator i.down {
+  background: #e87d88;
+}
+.home-content .box .indicator .text {
+  font-size: 12px;
+}
+
+.home-content .box .fa-users {
+  display: inline-block;
+  font-size: 32px;
+  height: 60px;
+  width: 70px;
+  background: #cce5ff;
+  line-height: 50px;
+  text-align: center;
+  color: #66b0ff;
+  align-self: center;
+  border-radius: 12px;
+  margin: 10px 0 0 50px;
+}
+
+.home-content .box .fa-users.two {
+  color: #2bd47d;
+  background: #c0f2d8;
+}
+.home-content .box .fa-building {
+  color: #ffc233;
+  background: #ffe8b3;
+  display: inline-block;
+  font-size: 32px;
+  height: 60px;
+  width: 70px;
+  line-height: 50px;
+  text-align: center;
+  align-self: center;
+  border-radius: 12px;
+  margin: 10px 0 0 78px;
+}
+.home-content .box .fa-cubes {
+  color: #e05260;
+  background: #f7d4d7;
+  display: inline-block;
+  font-size: 32px;
+  height: 60px;
+  width: 70px;
+  line-height: 50px;
+  text-align: center;
+  align-self: center;
+  border-radius: 12px;
+  margin: 10px 0 0 83px;
+}
+.home-content .total-order {
+  font-size: 20px;
+  font-weight: 500;
+}
+.home-content .sales-boxes {
+  display: flex;
+  justify-content: space-between;
+  /* padding: 0 20px; */
+}
+
+/* left box */
+.title1 p {
+  color: #ffffff;
+  font-size: 30px;
+}
+.title1 {
+  border-bottom: 5px solid #054ea1;
+  border-radius: 10px;
+  text-align: center;
+}
